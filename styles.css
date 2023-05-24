@@ -17,7 +17,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #9e9ea0;
+  background-color: #5a5a5a;
 }
 
 @keyframes entering {
@@ -45,9 +45,11 @@ body {
 nav {
   padding: 64px;
   grid-area: timeline;
+  padding-top: 46px;
 
   overflow-y: scroll;
   animation: entering 0.7s ease-in-out;
+  background-color: rgba(22, 1, 36, 0.266);
 }
 
 .memory {
@@ -93,6 +95,7 @@ nav {
   font-size: 1.2rem;
   color: #bebebf;
   line-height: 28px;
+  text-align: justify;
 }
 
 aside {
